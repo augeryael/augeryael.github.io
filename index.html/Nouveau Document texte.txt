@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="pages/page1.html" target="contenu">Page 1</a></li>
+            <li><a href="pages/page2.html" target="contenu">Page 2</a></li>
+            <li><a href="pages/page3.html" target="contenu">Page 3</a></li>
+            <li><a href="pages/page4.html" target="contenu">Page 4</a></li>
+            <li><a href="pages/page5.html" target="contenu">Page 5</a></li>
+        </ul>
+    </nav>
+    <iframe name="contenu" src="pages/page1.html"></iframe>
+</body>
+</html>
