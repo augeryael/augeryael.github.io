@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex; /* Utilisation de flexbox pour la mise en page */
+    min-height: 100vh; /* Assure que le body prend toute la hauteur de l'écran */
+    flex-direction: column;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Menu horizontal */
+    justify-content: space-around; /* Espacement régulier entre les éléments */
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+iframe {
+    flex-grow: 1; /* L'iframe prend l'espace disponible */
+    border: none;
+    width: 100%;
+    height: 500px; /* Hauteur initiale, s'adaptera au contenu */
+}
+
+/* Media query pour les petits écrans (smartphones) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Menu vertical sur petit écran */
+    }
+}
+nav li a:hover {
+    background-color: #ddd; /* Changer la couleur de fond au survol */
+    transition: background-color 0.3s ease; /* Ajouter une transition douce */
+}
